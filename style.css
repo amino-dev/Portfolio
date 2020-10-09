@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding:0px;
+ }
+   /* ----------------------- body ---------------------------- */
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(194, 222, 224) ;
+    padding-top: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   } 
+    /* --------------------- Barre de navigation ---------------- */
+
+nav  a{
+    margin-left: 10px;
+    text-decoration: none;
+      }
+       /* ----------- les éléments de la barre de navigation ----- */
+  
+#title{
+    position: relative;
+    right: 720px;
+    font-size: 30px;
+    color: blue;
+      }
+       /* ---------------- Le titre Mon Portfolio -------------- - */
+
+pre{
+    margin-left: 60%;
+    position: absolute;
+    top:750px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+    /* ------------- Paragraphe de la partie A propos ------------- */
+ 
+div{
+    background-color:rgb(194, 222, 224) ;
+   }
+    /* ---------------------- backround color -------------------- */
+  
+.simplon_img{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(194, 222, 224)  ;
+    position: relative;
+    top:10px;
+            } 
+    /* --------- L'image de Simplon dans la partie A propos ------- */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+          }
+    /* -------------- container de la partie compétences ----------- */
+   
+progress{
+    padding : 10px;
+    margin-top: 15px;
+        }
+    /* -------------------- progress bar --------------------------- */
+  
+.overflow-one{ 
+    background-color : rgb(237, 245, 231);
+    width: 40%;
+    height : 100px;
+    overflow : auto;
+    position: relative;
+    left: 25px;
+    margin-top: 30px;
+             }
+    /* -------------- Paragraphe1 de la partie compétences ---------- */
+  
+.overflow-two{ 
+    background-color : rgb(237, 245, 231);
+    width: 40%;
+    height : 100px;
+    overflow: auto;
+    position: relative;
+    left: 700px;
+    position: absolute;
+    top :3900px;
+             }
+    /* ------------- Paragraphe2 de la partie compétences ------------*/
+.form{
+    margin-left: 10px;
+     }
+    /* -------------------- image de formulaire ---------------------*/
+ 
+a{
+    margin-left: 110px;
+ }
+
+p{
+    position: relative;
+    top: 15px;
+}
+ /* ----------------------- Paragraphe ------------------------------*/
+.CV{
+   float: right;
+   width: 50%;
+  position: relative;
+ bottom: 970px;
+  margin-right: 10px;
+}
+   /* ------------------------- image de CV ------------------------*/
+
+.Contact{
+position: relative;
+bottom: 800px;
+}
+   /* ------------------------- image de CV ------------------------*/
+h1{
+    color: blue;
+    position: relative;
+    top: 35px;
+}
+   /* --------------------- les grands titres ------------------------*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    bottom: 770px;
+       }
+
+  /* -------------- footer de la partie contact ------------------ */
+
+
